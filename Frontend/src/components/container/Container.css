@@ -1,0 +1,13 @@
+.section {
+    background-color: #272727;
+    width: auto;
+    height: 87vh;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section h1 {
+    color: aliceblue;
+}

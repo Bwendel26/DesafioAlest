@@ -1,0 +1,15 @@
+.header {
+    background-color: #141414;
+    margin: auto;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color: aliceblue;
+    font-size: 4vh;
+    position: relative;
+    transform: translateY(50%);
+}
