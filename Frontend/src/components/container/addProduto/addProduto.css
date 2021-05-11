@@ -1,0 +1,19 @@
+form input {
+    background-color: #272727;
+    border: solid 1px #000;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: aliceblue;
+    padding: 1px 5px;
+}
+
+form button {
+    background-color: #272727;
+    border: none;
+    margin: 0 2px;
+    color: aliceblue;
+}
+
+form button :hover {
+    color: #032cfc;
+}
