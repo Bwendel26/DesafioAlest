@@ -96,7 +96,11 @@ export default class Container extends Component {
                   </form>
               </div>
               <div>
-                  <AddProduto />
+                  <AddProduto 
+                    handleSubmit={this.handleSubmit}
+                    handleChange={this.handleChange}
+                    novoProduto={novoProduto}
+                  />
                   <Produtos 
                     produtos={produtos}
                     handleEdit={this.handleEdit}

@@ -1,5 +1,14 @@
 #produtos {
+    /* TESTE */
     background-color: red;
     margin: blue;
     display: grid;
+    width: 100px;
+    height: 100px;
+
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
 }
