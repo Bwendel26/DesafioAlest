@@ -8,6 +8,7 @@
 }
 
 .header h1 {
+    font-family: monospace;
     color: aliceblue;
     font-size: 4vh;
     position: relative;
