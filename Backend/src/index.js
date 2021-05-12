@@ -1,12 +1,15 @@
-const express = require('express')
-const app = express()
-const port = 3030
+'use strict';
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+const express = require('express');
+// const app = express();
+const cors = require('cors');
+const config = require('./config');
+const productRoutes = require('./routes/student-routes');
 
+app.use(express.json());
+app.use(cors());
+app.use(express.json());
 
-app.listen(port, () => {
-  console.log(`listening port 3030 at http://localhost:${port}`)
-})
+app.use('./api', productRoutes.routes);
+
+app.listen(config.port, () => console.log('App is listening on port ' + config.port));
