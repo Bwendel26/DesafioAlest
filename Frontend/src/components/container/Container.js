@@ -9,7 +9,7 @@ export default class Container extends Component {
 
     state = {
         novoProduto: '',
-        produtos: [],
+        produtos: ["Tesoura"],
         index: -1
     }
 

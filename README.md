@@ -2,7 +2,7 @@
 
 Página até o momento:
 
-![Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/DApaginaProdutosCrud.png](Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/DApaginaProdutosCrud.png)
+![Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/DAFrontendRodando.gif](Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/DAFrontendRodando.gif)
 
 **Instruções**:
 
@@ -18,15 +18,15 @@ Editor de texto: VSCode
 
 Estrutura do projeto:
 
-![Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/estruturaDesafioAlest.png](Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/estruturaDesafioAlest.png)
+![Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/estruturaDesafioAlest.png](Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/estruturaDesafioAlest.png)
 
 - Frontend:
 
-![Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/estruturaDAprojetoReact.png](Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/estruturaDAprojetoReact.png)
+![Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/estruturaDAprojetoReact.png](Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/estruturaDAprojetoReact.png)
 
 - Backend:
 
-![Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/estruturaDoBack.png](Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/estruturaDoBack.png)
+![Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/estruturaDoBack.png](Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/estruturaDoBack.png)
 
 index.js Backend:
 
@@ -134,7 +134,7 @@ app.use(express.json());
 
 Ao final, nosso server Backend está retornando o seguinte erro: AssertionError [ERR_ASSERTION]: PORT is required, referente ao arquivo index.js, porém o problema está em assert.js:383.
 
-![Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/DABackendRodando.gif](Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/DABackendRodando.gif)
+![Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/DABackendRodando.gif](Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/DABackendRodando.gif)
 
 ### Frontend
 
@@ -410,8 +410,8 @@ function Footer() {
 export default Footer;
 ```
 
-Ao final, temos o Frontend apresentado como no topo do documento, o carregamento dos produtos (colocados de forma direta no código) ainda não está funcional, porém é apresentado nas ferramentas de desenvolvedor no LocalStorage do browser.
+Ao final, temos o Frontend apresentado como no topo do documento, o carregamento dos produtos está funcional, diretamente com o LocalStorage do browser, porém o Backend ainda não está funcional.
 
-![Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/serverReact.png](Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/serverReact.png)
+![Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/serverReact.png](Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/serverReact.png)
 
-![Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/DApaginaProdutosCrud%201.png](Desafio%20Alest%20d5669aa26e2247eb9b35563be1e79e0c/DApaginaProdutosCrud%201.png)
+![Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/DAPaginaFuncionalFrontend.png](Desafio%20Alest%2046481ebacdb5445da085a9de5f23b556/DAPaginaFuncionalFrontend.png)
